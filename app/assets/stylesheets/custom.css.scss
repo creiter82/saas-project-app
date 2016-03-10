@@ -8,7 +8,7 @@
     color: #fff !important;
     margin: 0 !important;
     padding: 5px !important;
-    :hover, :focus {
+    &:hover, &:focus {
       color: #000 !important;
     }
   }
@@ -104,3 +104,12 @@
 .no-right-padding {
   padding-right: 0;
 }  
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+    &:hover {
+      background: none;
+    }
+  }
+}
